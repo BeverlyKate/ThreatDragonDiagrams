@@ -700,7 +700,7 @@
                   "severity": "TBD",
                   "type": "Denial of service",
                   "description": "This happens when the web server is overwhelmed with traffic, slowing the service down for other end users. ",
-                  "mitigation": "One way this can be mitigated is by having multiple CDNs (content delivery networks) geographically, spreading out the traffic.  \n\nWhat Is a CDN (Content Delivery Network)?- https://www.akamai.com/glossary/what-is-a-cdn#:~:text=By%20reducing%20the%20distance%20that,decrease%20stress%20on%20origin%20servers\n\n\n\n",
+                  "mitigation": "One way this can be mitigated is by having multiple CDNs (content delivery networks) geographically, spreading out the traffic.  \n\nAnother way to mitigate DDoS attacks is with a web application firewall (WAF), as this has countermeasures like rate limiting, geo filtering, and IP restricting. \n\nWhat Is a CDN (Content Delivery Network)?- https://www.akamai.com/glossary/what-is-a-cdn#:~:text=By%20reducing%20the%20distance%20that,decrease%20stress%20on%20origin%20servers\nApplication (Layer 7) DDoS protection- https://learn.microsoft.com/en-us/azure/web-application-firewall/shared/application-ddos-protection\n\n\n",
                   "modelType": "default",
                   "new": false,
                   "number": 16,
