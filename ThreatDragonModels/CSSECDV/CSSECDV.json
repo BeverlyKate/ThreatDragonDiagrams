@@ -514,7 +514,7 @@
                   "severity": "TBD",
                   "type": "Repudiation",
                   "description": "Can claim that no data was received in a few ways: sharing admin accounts and log tampering.",
-                  "mitigation": "Logging/auditing system to document the time and date and the nature of the data of the supposed action.",
+                  "mitigation": "secure logging/auditing system to document the time and date and the nature of the data of the supposed action.",
                   "modelType": "default",
                   "new": false,
                   "number": 21,
@@ -1472,6 +1472,51 @@
                 "y": 240
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "f4727909-bad3-4616-a16b-7097f06508c6",
+            "source": {
+              "cell": "e21d4acb-c4d5-4779-8f3d-77e5c200e474",
+              "port": "5933aa19-696f-45cb-bd01-1b33cdb16f14"
+            },
+            "target": {
+              "x": 1050,
+              "y": 480
+            },
+            "vertices": []
           }
         ]
       }
