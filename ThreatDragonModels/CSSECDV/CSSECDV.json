@@ -480,6 +480,19 @@
                   "new": false,
                   "number": 13,
                   "score": ""
+                },
+                {
+                  "id": "e9828a84-1f86-485c-916e-ee2ac6b3c727",
+                  "title": "Repudiation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Can claim that no data was received",
+                  "mitigation": "Logging/auditing system to document the time and date and the nature of the data of the supposed action.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
                 }
               ]
             }
@@ -1386,6 +1399,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 20
+    "threatTop": 22
   }
 }
