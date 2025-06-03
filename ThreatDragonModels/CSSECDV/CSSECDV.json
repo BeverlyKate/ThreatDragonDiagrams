@@ -143,6 +143,19 @@
                   "new": false,
                   "number": 9,
                   "score": ""
+                },
+                {
+                  "id": "0de2b75f-fdfa-4cd0-8726-1092fb8c1344",
+                  "title": "Cross-site scripting (XSS)",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
                 }
               ]
             }
@@ -150,7 +163,7 @@
           {
             "position": {
               "x": 420,
-              "y": 100
+              "y": 90
             },
             "size": {
               "width": 120,
@@ -276,15 +289,34 @@
                   "new": false,
                   "number": 17,
                   "score": ""
+                },
+                {
+                  "id": "05208e73-b050-4e6d-b50b-befe92a0f70e",
+                  "title": "Credential stuffing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Credential stuffing is when an account is accessed using credentials leaked in data breaches. This can lead to malicious actors gaining access to accounts, effectively impersonating the user. ",
+                  "mitigation": "Educating users, encouraging unique passwords not used anywhere else. ",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                },
+                {
+                  "id": "e7123895-bbf3-460a-8bdc-2a7ddfc19cdd",
+                  "title": "Session Hijacking",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
                 }
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -454,8 +486,8 @@
           },
           {
             "position": {
-              "x": 1000,
-              "y": 110
+              "x": 1005,
+              "y": 100
             },
             "size": {
               "width": 110,
@@ -971,7 +1003,7 @@
             "vertices": [
               {
                 "x": 540,
-                "y": 290
+                "y": 280
               }
             ]
           },
@@ -1021,7 +1053,7 @@
             "vertices": [
               {
                 "x": 430,
-                "y": 290
+                "y": 280
               }
             ]
           },
@@ -1071,11 +1103,11 @@
             "vertices": [
               {
                 "x": 640,
-                "y": 120
+                "y": 110
               },
               {
                 "x": 910,
-                "y": 120
+                "y": 110
               }
             ]
           },
@@ -1125,11 +1157,11 @@
             "vertices": [
               {
                 "x": 910,
-                "y": 200
+                "y": 190
               },
               {
                 "x": 630,
-                "y": 200
+                "y": 190
               }
             ]
           },
@@ -1339,8 +1371,8 @@
               "y": 210
             },
             "target": {
-              "x": 710,
-              "y": 230
+              "x": 730,
+              "y": 240
             },
             "vertices": [
               {
