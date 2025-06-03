@@ -138,10 +138,23 @@
                   "severity": "TBD",
                   "type": "Tampering",
                   "description": "Since the Browser client accepts user input, SQL injections can be made from the client side. ",
-                  "mitigation": "Checking user input ",
+                  "mitigation": "Checking/Validating user input ",
                   "modelType": "default",
                   "new": false,
                   "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "127ea040-c240-4ba4-86f5-87de3c993b01",
+                  "title": "New generic threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": true,
+                  "number": 14,
                   "score": ""
                 }
               ]
@@ -404,7 +417,7 @@
                 },
                 {
                   "id": "57f4ff57-4f58-49a8-8669-d3e62ad2eee9",
-                  "title": "DDos",
+                  "title": "DDos wip",
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Denial of service",
@@ -414,15 +427,21 @@
                   "new": false,
                   "number": 11,
                   "score": ""
+                },
+                {
+                  "id": "5d96a0af-1d41-4159-b837-923e1601022c",
+                  "title": "Data breach",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Confidentiality",
+                  "description": "If a database stores sensitive user data in plain text, the risk in data breaches is heightened. ",
+                  "mitigation": "Do not store sensitive data in plain text. Encrypt it, even in the storage, not just between the web app and browser client. ",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
                 }
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
