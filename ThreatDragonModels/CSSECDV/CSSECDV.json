@@ -577,8 +577,8 @@
                 "text": "Web \napplication"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -674,12 +674,26 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "69a3a019-5110-4a32-abe5-6e8cc8addbeb",
+                  "title": "MITM attack",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "If sensitive data (such as user credentials) is sent in plain text, malicious actors on the same network can easily read this. ",
+                  "mitigation": "Encrypt user data as it gets passed along from the browser client. ",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1319,6 +1333,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 14
+    "threatTop": 15
   }
 }
