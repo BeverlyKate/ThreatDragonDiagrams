@@ -161,8 +161,8 @@
                 "text": "Authorization\n provider"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -258,12 +258,33 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "014f4bfc-ea63-4229-9bb2-f445d2bee188",
+                  "title": "Brute force attacks ",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Brute force attacks can lead to the legitimate user being locked out of their account, if there are measures in place to permanently lock the account when suspicious activity is detected. ",
+                  "mitigation": "Requiring stronger passwords to make it harder to guess, Multi-factor authentication to deter attacks",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                }
+              ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1333,6 +1354,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 16
+    "threatTop": 17
   }
 }
