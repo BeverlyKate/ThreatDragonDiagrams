@@ -422,7 +422,7 @@
                   "severity": "TBD",
                   "type": "Confidentiality",
                   "description": "If a database stores sensitive user data in plain text, the risk in data breaches is heightened. ",
-                  "mitigation": "Do not store sensitive data in plain text. Encrypt it, even in the storage, not just between the web app and browser client. ",
+                  "mitigation": "Do not store sensitive data in plain text. Encrypt sensitive data, and not just between the web app and browser client. ",
                   "modelType": "default",
                   "new": false,
                   "number": 13,
@@ -669,7 +669,7 @@
               "threats": [
                 {
                   "id": "69a3a019-5110-4a32-abe5-6e8cc8addbeb",
-                  "title": "MITM attack",
+                  "title": "Cryptographic failure (MITM Attacks)",
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Information disclosure",
