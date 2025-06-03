@@ -513,7 +513,7 @@
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Repudiation",
-                  "description": "Can claim that no data was received",
+                  "description": "Can claim that no data was received in a few ways: sharing admin accounts and log tampering.",
                   "mitigation": "Logging/auditing system to document the time and date and the nature of the data of the supposed action.",
                   "modelType": "default",
                   "new": false,
@@ -525,7 +525,7 @@
           },
           {
             "position": {
-              "x": 1005,
+              "x": 1000,
               "y": 100
             },
             "size": {
@@ -889,7 +889,22 @@
                 "x": 230,
                 "y": 390
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
