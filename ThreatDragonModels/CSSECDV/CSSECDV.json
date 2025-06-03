@@ -659,8 +659,8 @@
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Repudiation",
-                  "description": "LDAP claims it did not receive data",
-                  "mitigation": "Logging or authentication to log the timestamp and nature of the data.",
+                  "description": "LDAP repudiation can happen in a few ways: sharing accounts, a lack of user logging, and log tampering.",
+                  "mitigation": "Secure logging or authentication to log the timestamp and nature of the data.",
                   "modelType": "default",
                   "new": false,
                   "number": 24,
@@ -831,8 +831,8 @@
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Repudiation",
-                  "description": "Web application can claim it did not receive data.",
-                  "mitigation": "Logging or auditing of any action's timestamp and nature should be done to verify actions and data.",
+                  "description": "If no data is logged, the client can claim that they did not do a specific action. Alternatively, a malicious actor can can exploit a vulnerability and modify existing logs. ",
+                  "mitigation": "secure logging or auditing of any action's timestamp and nature should be done to verify actions and data using certificates/tokens.",
                   "modelType": "default",
                   "new": false,
                   "number": 28,
@@ -889,22 +889,7 @@
                 "x": 230,
                 "y": 390
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
