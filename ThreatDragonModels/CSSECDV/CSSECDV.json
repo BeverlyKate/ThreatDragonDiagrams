@@ -143,19 +143,6 @@
                   "new": false,
                   "number": 9,
                   "score": ""
-                },
-                {
-                  "id": "127ea040-c240-4ba4-86f5-87de3c993b01",
-                  "title": "New generic threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "default",
-                  "new": true,
-                  "number": 14,
-                  "score": ""
                 }
               ]
             }
