@@ -692,6 +692,19 @@
                   "new": false,
                   "number": 15,
                   "score": ""
+                },
+                {
+                  "id": "e4cfabb3-2a7c-417f-aa7e-047190f406f7",
+                  "title": "DDoS attack",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "This happens when the web server is overwhelmed with traffic, slowing the service down for other end users. ",
+                  "mitigation": "One way this can be mitigated is by having multiple CDNs (content delivery networks) geographically, spreading out the traffic.  \n\nWhat Is a CDN (Content Delivery Network)?- https://www.akamai.com/glossary/what-is-a-cdn#:~:text=By%20reducing%20the%20distance%20that,decrease%20stress%20on%20origin%20servers\n\n\n\n",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
                 }
               ]
             }
@@ -1333,6 +1346,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 15
+    "threatTop": 16
   }
 }
