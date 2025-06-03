@@ -673,7 +673,7 @@
                   "severity": "TBD",
                   "type": "Information disclosure",
                   "description": "Without proper data protection, malicious actors can read information that is meant to be private.",
-                  "mitigation": "Review authorization settings",
+                  "mitigation": "Review authorization settings via ACL's (access control lists) and employing the principle of least priviledge.",
                   "modelType": "default",
                   "new": false,
                   "number": 25,
