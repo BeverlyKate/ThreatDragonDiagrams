@@ -645,9 +645,9 @@
                   "title": "LDAP injection",
                   "status": "Open",
                   "severity": "TBD",
-                  "type": "--- STRIDE ---",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "type": "Tampering",
+                  "description": "LDAP injections are done through the browser client, where the attacker attempts to run malicious code though inputs. ",
+                  "mitigation": "Much like SQL injections, user input validation on the browser client side and query parameterization are used to mitigate LDAP injections.",
                   "modelType": "default",
                   "new": false,
                   "number": 23,
@@ -823,6 +823,19 @@
                   "modelType": "default",
                   "new": false,
                   "number": 16,
+                  "score": ""
+                },
+                {
+                  "id": "3edf4eaa-bb0c-4481-8efb-ae1d10a954bf",
+                  "title": "Repudiation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Web application can claim it did not receive data.",
+                  "mitigation": "Logging or auditing of any action's timestamp and nature should be done to verify actions and data.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 28,
                   "score": ""
                 }
               ]
@@ -1465,6 +1478,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 27
+    "threatTop": 28
   }
 }
