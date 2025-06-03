@@ -146,15 +146,41 @@
                 },
                 {
                   "id": "0de2b75f-fdfa-4cd0-8726-1092fb8c1344",
-                  "title": "Cross-site scripting (XSS)",
+                  "title": "Website spoofing",
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Spoofing",
-                  "description": "Provide a description for this threat",
+                  "description": "A malicious actor can have a website that imitates the official frontend design of the website, especially login pages.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "default",
                   "new": false,
                   "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "35a7e3c7-c437-4cfc-a246-7ca45b0947a7",
+                  "title": "Availability compromised",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "When the browser client is unusable due to speed or is stuttering, compromising availability of the site. ",
+                  "mitigation": "Prevent against DDoS attacks",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
+                },
+                {
+                  "id": "82a91082-254e-47ac-a898-08d9a0dffdf6",
+                  "title": "Cross site scripting (XSS) ",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "This attack when malicious scripts are injected into the browser client. \n\nwhat is XSS - https://owasp.org/www-community/attacks/xss/",
+                  "mitigation": "User input validation ",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 27,
                   "score": ""
                 }
               ]
@@ -511,8 +537,8 @@
                 "text": "LDAP"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -608,12 +634,52 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "3b41ca2e-b70e-45a5-aacf-4b38e5deae77",
+                  "title": "LDAP injection",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "--- STRIDE ---",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                },
+                {
+                  "id": "6487562e-108d-4be4-9116-0ec48d674b24",
+                  "title": "Repudiation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "LDAP claims it did not receive data",
+                  "mitigation": "Logging or authentication to log the timestamp and nature of the data.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                },
+                {
+                  "id": "57393e41-511b-4ae9-bf99-06e684a19402",
+                  "title": "Information disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Without proper data protection, malicious actors can read information that is meant to be private.",
+                  "mitigation": "Review authorization settings",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1399,6 +1465,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 22
+    "threatTop": 27
   }
 }
